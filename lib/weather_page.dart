@@ -140,23 +140,6 @@ class _WeatherPageState extends State<WeatherPage> {
                 ),
                 const SizedBox(height: 15),
 
-                // SingleChildScrollView(
-                //   scrollDirection: Axis.horizontal,
-                //   child: Row(
-                //     children: [
-                //       for(int i =0; i<5; i++)
-                //       HourlyForecastItem(
-                //         hour: data['list'][i+1]['dt'].toString(),
-                //         icon: data['list'][i+1]['weather'][0]['main'] == 'Clouds' ||
-                //          data['list'][i+1]['weather'][0]['main'] == 'Rain'
-                //                 ? Icons.cloud
-                //                 : Icons.sunny,
-                //         temperature: data['list'][i+1]['main']['temp'].toString(),
-                //       ),
-                //     ],
-                //   ),
-                // ),
-
                 SizedBox(
                   height: 140,
                   child: ListView.builder(
